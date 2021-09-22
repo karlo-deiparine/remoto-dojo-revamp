@@ -1,9 +1,14 @@
 // tailwind.config.js
 module.exports = {
   future: {},
-  purge: [],
+  purge: false,
   theme: {
-    extend: {},
+    extend: {
+      // IMAGES
+      backgroundImage: {
+        "headline-banner": "url(../images/homepage-banner.jpg)",
+      },
+    },
   },
   variants: {},
   plugins: [],

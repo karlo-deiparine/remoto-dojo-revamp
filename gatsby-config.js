@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `RemotoDojo`,
-    subTitle: `Your IT Staffing Solutions & Recruitment Experts`, 
+    subTitle: `Your IT Staffing Solutions & Recruitment Experts`,
     description: `Have your IT staffing needs be handled and solved by the experts today! We build the technical team to realize your ideas. Contact us now!`,
     url: `https://remotodojo-revamp.com`,
   },
   flags: {
-    THE_FLAG: false
+    THE_FLAG: false,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,6 +20,8 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -67,8 +69,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
-        postCssPlugins: [require("tailwindcss"), require("autoprefixer")]
-      }
+        postCssPlugins: [require("tailwindcss"), require("autoprefixer")],
+      },
     },
     {
       resolve: `gatsby-plugin-purgecss`,
@@ -77,6 +79,18 @@ module.exports = {
         develop: false,
         tailwind: true,
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@src": "src",
+          "@components": "src/components",
+          "@pages": "src/pages",
+          "@images": "src/images",
+        },
+        extensions: ["js"],
+      },
+    },
   ],
 }
