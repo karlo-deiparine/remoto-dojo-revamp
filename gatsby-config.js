@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby TailwindCSS Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter with TailwindCSS and common dev tools. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@kosvrouvas`,
+    title: `RemotoDojo`,
+    subTitle: `Your IT Staffing Solutions & Recruitment Experts`, 
+    description: `Have your IT staffing needs be handled and solved by the experts today! We build the technical team to realize your ideas. Contact us now!`,
+    url: `https://remotodojo-revamp.com`,
   },
   flags: {
     THE_FLAG: false

@@ -44,16 +44,50 @@ function Header({ siteTitle }) {
             to={`/page-2`}
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            page 2
+            Footprint
           </Link>
-        </div>
-        <div>
-          <a
-            href="#download"
-            className="inline-block px-4 py-2 mt-4 text-sm leading-none text-white border border-white rounded hover:border-transparent hover:text-black hover:bg-white lg:mt-0"
+          <Link
+            to={`/page-2`}
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            Download
-          </a>
+            About
+          </Link>
+          <Link
+            to={`/page-2`}
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Why The Philippines
+          </Link>
+          <Link
+            to={`/page-2`}
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Why Us
+          </Link>
+          <Link
+            to={`/page-2`}
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Portfolio
+          </Link>
+          <Link
+            to={`/page-2`}
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Industry News
+          </Link>
+          <Link
+            to={`/page-2`}
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Blog
+          </Link>
+          <Link
+            to={`/page-2`}
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Business Angels
+          </Link>
         </div>
       </div>
     </nav>
