@@ -1,0 +1,44 @@
+@font-face {
+  font-family: DinBlack;
+  src: url(../assets/fonts/DIN\ Black.woff) format("woff");
+}
+@font-face {
+  font-family: DinBlack;
+  src: url(../assets/fonts/DIN\ Black.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: DinBold;
+  src: url(../assets/fonts/DIN\ Bold.woff) format("woff");
+}
+@font-face {
+  font-family: DinBold;
+  src: url(../assets/fonts/DIN\ Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: DinCondensedBold;
+  src: url(../assets/fonts/DIN\ Condensed\ Bold.woff) format("woff");
+}
+@font-face {
+  font-family: DinCondensedBold;
+  src: url(../assets/fonts/DIN\ Condensed\ Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: DinMedium;
+  src: url(../assets/fonts/DIN\ Medium.woff) format("woff");
+}
+@font-face {
+  font-family: DinMedium;
+  src: url(../assets/fonts/DIN\ Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: Din;
+  src: url(../assets/fonts/DIN.woff) format("woff");
+}
+@font-face {
+  font-family: Din;
+  src: url(../assets/fonts/DIN.woff2) format("woff2");
+}

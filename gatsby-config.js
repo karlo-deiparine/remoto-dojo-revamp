@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
     title: `RemotoDojo`,
-    subTitle: `Your IT Staffing Solutions & Recruitment Experts`,
     description: `Have your IT staffing needs be handled and solved by the experts today! We build the technical team to realize your ideas. Contact us now!`,
     url: `https://remotodojo-revamp.com`,
   },
