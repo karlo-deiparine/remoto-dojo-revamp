@@ -14,3 +14,13 @@ h3 {
 a {
   @apply text-blue-600;
 }
+
+/* BANNER IMAGE SECTION */
+.bg-headline-banner {
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      rgba (33, 37, 41, 0) 50%
+    ),
+    url(../images/homepage-banner.jpg);
+}
