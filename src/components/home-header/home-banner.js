@@ -34,10 +34,7 @@ function HomeBanner() {
             landscape
           </h2>
           <div className="pt-4">
-            <a
-              href="/"
-              className="border uppercase py-4 px-10 font-semibold text-white bg-primary rounded border-primary hover:bg-white shadow-cta"
-            >
+            <a href="/" className="tell-me-more-cta">
               Tell Me More
             </a>
           </div>

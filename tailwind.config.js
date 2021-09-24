@@ -18,15 +18,22 @@ module.exports = {
       "7xl": "5rem",
     },
     backgroundColor: {
-      primary: "#074BE2",
+      primary: "#202529",
+      secondary: "#EAEAEA",
+      tertiary: "#074BE2",
+      white: "#FFFFFF",
     },
     textColor: {
       primary: "#212529",
-      secondary: "#6c757d",
-      white: "#ffffff",
+      secondary: "#6C757D",
+      tertiary: "#094BE2",
+      white: "#FFFFFF",
     },
     boxShadow: {
       cta: "0px 10px 10px -4px rgb(7 75 226 / 40%)",
+    },
+    borderColor: {
+      tertiary: "094BE2",
     },
     extend: {},
   },
