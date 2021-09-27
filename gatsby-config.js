@@ -87,6 +87,7 @@ module.exports = {
           "@components": "src/components",
           "@pages": "src/pages",
           "@images": "src/images",
+          "@data": "src/data",
         },
         extensions: ["js"],
       },

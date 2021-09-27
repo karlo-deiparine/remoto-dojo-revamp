@@ -3,6 +3,9 @@ module.exports = {
   future: {},
   purge: false,
   theme: {
+    fontFamily: {
+      DinCondensed: ["DinCondensedBold", "Arial", "Helvetica", "sans-serif"],
+    },
     fontSize: {
       xs: ".75rem",
       sm: ".875rem",
@@ -13,7 +16,7 @@ module.exports = {
       "2xl": ["1.625rem", "1.5em"],
       "3xl": "1.875rem",
       "4xl": "2.25rem",
-      "5xl": "3rem",
+      "5xl": "3.125rem",
       "6xl": ["4.375rem", "1.1em"],
       "7xl": "5rem",
     },
@@ -21,6 +24,7 @@ module.exports = {
       primary: "#202529",
       secondary: "#EAEAEA",
       tertiary: "#074BE2",
+      quarternary: "rgba(9,75,226,0.25)",
       white: "#FFFFFF",
     },
     textColor: {
@@ -33,7 +37,9 @@ module.exports = {
       cta: "0px 10px 10px -4px rgb(7 75 226 / 40%)",
     },
     borderColor: {
-      tertiary: "094BE2",
+      primary: "#212529",
+      secondary: "#6C757D",
+      tertiary: "#094BE2",
     },
     extend: {},
   },

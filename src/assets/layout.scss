@@ -9,7 +9,11 @@
   @apply bg-tertiary text-white text-base uppercase font-semibold px-8 py-3.5 rounded-md border-2 hover:text-tertiary hover:bg-white transition duration-500 ease-in-out hover:-translate-y-5 hover:scale-150;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: DinCondensedBold, Arial, Helvetica, sans-serif;
 }
 
@@ -32,5 +36,8 @@ p {
 /* BANNER TEXT SECTION - START */
 .banner-text {
   background-image: url(../images/banner-text-bg.svg);
+}
+.banner-height {
+  height: 52.5%;
 }
 /* BANNER TEXT SECTION - END */

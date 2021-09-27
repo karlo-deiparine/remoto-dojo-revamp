@@ -24,7 +24,7 @@ function HomeBanner() {
 
   return (
     <BgImage className="h-screen relative" image={bannerImage}>
-      <div className="banner-text h-1/2 bg-no-repeat w-full bottom-0 absolute">
+      <div className="banner-text bg-no-repeat w-full bottom-0 absolute banner-height">
         <div className="py-20 px-40 space-y-5">
           <h1 className="text-6xl text-primary font-bold">
             Assassinate your <br /> IT staffing woes!
