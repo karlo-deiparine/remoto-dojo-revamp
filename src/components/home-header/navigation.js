@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { Sticky, StickyContainer } from "react-sticky"
 
 function Navigation() {
   const [isExpanded, toggleExpansion] = useState(false)
@@ -20,7 +21,7 @@ function Navigation() {
           />
           <StaticImage
             src="../../images/linkedin.svg"
-            alt="Linkedin"
+            alt="Linkedin" 
             width={15}
           />
         </div>
